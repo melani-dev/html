@@ -282,6 +282,7 @@ list
 
 
 Q4.
+horizontal line
 
 <!DOCTYPE html>
 <html>
@@ -318,6 +319,8 @@ Q4.
 	</html>
 
 Q5.
+table
+
 <!Doctype html>
 <html>
 <head></head>
