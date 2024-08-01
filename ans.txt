@@ -1,0 +1,281 @@
+Q1.
+html form eka. 
+
+<!Doctype html>
+<html>
+<head>
+	<title>Forms</title>
+	<style>
+		.main_table > tr,
+		td {
+			padding: 10px 0px;
+			}
+			.sub_table{
+			border: 2px solid black;
+			padding: 0 5px;
+			}
+			.main_label{
+			margin-right: 50px;
+			}
+			.container{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			}
+			.form{
+			width: max-content;
+			padding: 10px;
+			border: 2px lightblue; 
+			background: lightblue;
+			}
+			
+	</style>
+</head>
+<body>
+	<main class="container">
+	
+	<form action="" class="form">
+		<table class="main_table">
+		<tr><h3><center><u>STUDENT REGISTRATION FORM</u></h3></tr>
+		<tr>
+		<td><label class="main_label" for="fname">Name </label></td>
+		<td><input type="text" name="fname" id="fname" /></td>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="faname">Father Name </label></td>
+		<td><input type="text" name="faname" id="faname" /></td>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="post">Postal Address </label></td>
+		<td><input type="text" name="post" id="post" /></td>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="gen">Sex </label></td>
+		<td><label for="mal">Male</label>
+		<input type="radio" name="mal" id="mal" value="Male" />
+		<label for="female">Female</label>
+		<input type="radio" name="female" id="female" value="Female" /></td>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="city">City </label></td>
+		<td>
+			<select name="city" id="city"><br>
+				<option value="tri">select..</option>
+				<option value="col">Colombo</option>
+				<option value="anu">Anuradhpura</option></td>
+			</select>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="course">Course </label></td>
+		<td>
+			<select name="course" id="course"><br>
+				<option value="tri">select..</option>
+				<option value="other">Physical Science</option></td>
+			</select>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="dis">District </label></td>
+		<td>
+			<select name="dis" id="dis"><br>
+				<option value="tri">select..</option>
+				<option value="col">Colombo</option></td>
+			</select>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="stat">State </label></td>
+		<td>
+			<select name="stat" id="stat"><br>
+				<option value="tri">select..</option>
+				<option value="col">Colombo</option></td>
+			</select>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="pin">PinCode </label></td>
+		<td><input type="text" name="pin" id="pin" /></td>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="email">EMAIL ID </label></td>
+		<td><input type="email" name="email" id="email" required /></td>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="dob">DOB </label></td>
+		<td><input type="text" name="dob" id="dob" required /></td>
+		</tr>
+		<tr>
+		<td><label class="main_label" for="mob">MobileNo </label></td>
+		<td><input type="tel" name="mob" id="mob" max="10" required /></td>
+		</tr>
+		<tr>
+		<td><input type="reset" value="reset"></td>
+		<td><input type="submit" value="Submit Form"></td>
+		</tr>
+		
+		</table>
+		</form>
+		</body>
+		</html>
+
+
+Q2.
+normal application form
+
+<!Doctype html>
+<html>
+<head>
+	<title>Forms</title>
+	<style>
+	.container
+	{
+	width:80%;
+	margin: 10px 10px 10px 10pxx;
+	padding: 20px;
+	border: 1px solid #666;
+	background:#ffffff
+	}
+	</style>
+</head>
+<body>
+	<div id="container">
+	<h2>Application Form</h2>
+	<form>
+		<div>
+			<label for="fname">First Name: </label>
+			<input type="text" name="fname" id="fname">
+			<label for="lname">Last Name: </label>
+			<input type="text" name="lname" id="lname">
+		</div>
+		<br>
+		<div>
+			<label for="dob">Date of birth:</label>
+			<input type="date" name="dob" id="dob">
+			<label for="age">Age: </label>
+			<input type="number" name="age" id="age">
+		</div>
+		<br>
+		<div>
+			<label for="gen">Gender: </label>
+			<select name="gen" id="gen"><br>
+				<option value="fmale">Female</option>
+				<option value="male">Male</option>
+				<option value="other">Other</option>
+			</select>
+			<label for="email">Email Address: </label>
+			<input type="email" name="email" id="email">	
+		</div>
+		<br>
+		<div>
+			<label for="posi">Position Available: </label>
+			<input type="radio" name="jun" id="jun" value="Junior Developer">
+			<label for="jun">Junior Developer</label>
+			<input type="radio" name="mid" id="mid" value="Mid-level Developer">
+			<label for="mid">Mid-level Developer</label>
+			<input type="radio" name="sen" id="sen" value="Senior Developer">
+			<label for="sen">Senior Developer</label>
+		</div>
+		<br>
+		<div>
+			<label for="pro">Programming Languages: </label>
+			<input type="checkbox" name="java" id="java" value="java">
+			<label for="java">Java</label>
+			<input type="checkbox" name="js" id="js" value="JavaScript">
+			<label for="js">JavaScript</label>
+			<input type="checkbox" name="pyt" id="pyt" value="Python">
+			<label for="pyt">Python</label>
+		</div>
+		<br>
+		<div>
+			<label for="pass">Password: </label>
+			<input type="password" name="pass" id="pass">
+			<label for="con">Confirm Password: </label>
+			<input type="password" name="pass"  id="pass">
+		</div>
+		<br>
+		<div>
+			
+			<input type="submit" value="Submit">
+			<input type="reset" value="reset">
+		</div>
+	</form>	
+	</div>	
+	
+</body>
+</html>
+
+
+Q3.
+list
+
+<!DOCTYPE html>
+
+<html>
+	<head> 
+		
+	</head>
+	
+	
+	  <body>
+	  
+	  <h1> Faculties at the Eastern Univercity , Sri Lanka</h1>
+	  
+		<ul> 
+			<li>Agriculture</li>
+				<ul> 
+					<li>Department</li>
+					<ol>
+						<li>Agricultural Biology</li>
+						<li>Agricultural Chemistry</li>
+						<li>Agricultural Economics</li>
+						<li></li>
+					</ol>
+				</ul>
+				
+					
+			<li>Arts And Culture</li>
+				<ul> 
+					<li>Department</li>
+					<ol style = "list-style-type: upper-roman"> 
+						<li>Arabic</li>
+						<li>Comparative Religion & Social Harmony</li>
+						<li>Education & child care</li> 
+					</ol>
+				</ul>
+				
+			<li>Commerce and Management</li>
+				<ul> 
+					<li>Department</li>
+					<ol style = "list-style-type: lower-roman"> 
+						<li>Commerce</li>
+						<li>Management</li>
+						<li>Economics</li> 
+					</ol>
+				</ul>
+				
+			
+			<li>Health Care Sciences</li>
+				<ul style="list-style-type: square;">
+					<li>Departments</li>
+						<ol style="list-style-type:lower-alpha;">
+							<li>Human Bialogy</li>
+							<li>Pathophysiology</li>
+							<li>Primary helth care</li>
+						</ol>
+				</ul>
+				
+			<li>Science</li>
+				<ul style="list-style-type: square;">
+					<li>Departments</li>
+						<ol style="list-style-type:upper-alpha;">
+							<li>Botany</li>
+							<li>Chemistry</li>
+							<li>Zoology</li>
+							<li>Physics</li>
+							<li>Mathematics</li>
+						</ol>
+				</ul>
+	</ul>
+		</ul>
+	  
+	  </body>
+	  
+</html>
