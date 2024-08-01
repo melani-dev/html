@@ -279,3 +279,148 @@ list
 	  </body>
 	  
 </html>
+
+
+Q4.
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>black goose bristo</title>
+	</head>
+	
+	<Body bgcolor= "yellow">
+	
+	<center><img src="hel.jpg" alt="Girl in a jacket" width="100" height="100"></center>
+	<center><h1>black goose bristo</h1></center>
+	<hr style="color:blue">
+	
+	<p style="color:red">jsdjhewdk</p>
+	<p>kjhfjhfjcfnjnfsdlkfjhdwfghsnwk</p>
+	
+	<br>
+	
+	
+	<p style="color:red">jsdjhewdk</p>
+	<p>kjhfjhfjcfnjnfsdlkfjhdwfghsnwk</p>
+	
+	<br>
+	<p style="color:red">jsdjhewdk</p>
+	<p>kjhfjhfjcfnjnfsdlkfjhdwfghsnwk</p>
+	
+	<br>
+	
+	<footer style ="border-top: 1px solid "157b1dc; text-align: center; padding-top: 1em" 
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-twitter"></a>
+	</footer>
+	</Body>
+	</html>
+
+Q5.
+<!Doctype html>
+<html>
+<head></head>
+
+<body>
+<table>
+
+<caption>A complex table</caption>
+
+<thead>
+
+<tr>
+
+<th colspan="3">Invoice #123456789</th>
+
+<th>14 January 2025 </th>
+
+</tr> <tr>
+
+<td colspan="2">
+
+<strong>Pay to:</strong>
+
+<br> Acme Billing Co. <br> 123 Main St.<br> Cityville, NA 12345
+
+</td>
+
+<td colspan="2">
+
+<strong>Customer:</strong>
+
+<br> John Smith<br> 321 Willow Way<br> Southeast Northwestershire, MA 54321
+
+</td>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<th>Name / Description</th>
+
+<th>Qty.</th> <th>@</th>
+
+<th>Cost</th>
+
+</tr> <tr>
+
+<td>Paperclips</td>
+
+<td>1000</td>
+
+<td>0.01</td>
+
+<td>10,00</td>
+
+</tr>
+
+<tr>
+
+<td>Staples (box)</td> </td>
+
+< td>100</td>
+
+<td>1.00</td>
+
+<td>100.00</td>
+
+</tr>
+
+</tbody>
+
+<tfoot>
+
+<tr>
+
+<th colspan="3">Subtotal</th>
+
+<td> 110.00</td>
+
+</tr>
+
+<tr>
+
+<th colspan="2">Tax</th>
+
+<td> </td>
+
+<td>8.80</td>
+
+</tr> <tr>
+
+<th colspan="3">Grand Total</th>
+
+<td>$ 118.80</td>
+
+</tr>
+
+</tfoot>
+
+</table>
+</body>
+</html>
