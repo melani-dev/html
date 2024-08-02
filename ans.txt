@@ -427,3 +427,579 @@ table
 </table>
 </body>
 </html>
+
+
+Q6
+Registration Form
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+        
+        <style>
+            body{
+                padding:10px 20px;
+                background-color: green;
+                
+            }
+            .content-container{
+                display: flex;
+                flex-direction: column;
+                width: 900px;
+                background-color: aqua;
+                position: relative;
+                margin: auto;
+            }
+            .top-container{
+                margin-bottom: 0;
+            }
+            .textbox{
+                border: 1px solid black;
+                display: inline-block;
+                margin-left: 120px;
+            }
+            h1{
+                display: inline-block;
+            }
+            .input-wrapper{
+                display: flex;
+                margin-bottom: 5px;
+                gap: 10px;
+            }
+            .date-box{
+                display: flex;
+            }
+            .date-box{
+                display: flex;
+            }
+            .employe-container{
+                display: flex;
+            }
+            label{
+                width: 300px;
+                margin: 0 10px 0 10px;
+                margin-right: 0%;
+            }
+           
+            .input-area{
+                width: 100%;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="content-container">
+            <div class="top-container">
+                <h1 style="margin-right: 50px;">Memberen Event Registration Form</h1>
+                <p class="textbox">Bargaining Procedures Conference<br> October 27 & 28.2023 <br>Sheraton Hotel Centre</p>
+
+            </div>
+            <div style="margin-top: 0;">
+                <h4>Section A:Contact Information</h4>
+                <div class="input-wrapper">
+                    <label>First Name</label><input class="input-area" type="text">
+                    <label>Last Name</label><input class="input-area" type="text">
+                </div>
+                <div class="input-wrapper">
+                    <label style="width: 300px;">Address/Apt#/City/Postal Coide</label><input class="input-area" type="text">
+                    </div>
+                <div class="input-wrapper">
+                    <label>Home Phone</label><input class="input-area" type="text">
+                    <label>Cell Phone</label><input class="input-area" type="text">
+                </div>
+                <div class="input-wrapper">
+                    <label style="width: auto;">Union#</label><input type="text" style="width: 300px;">
+                    <label style="width: auto;">Local</label><input type="text" style="width: 300px;">
+                    <label style="width: 600;">Secure Email</label><input class="input-area" type="text" style="700px;">
+                </div>
+            </div>
+            <h4>Section B:(Time-off Letter)Complete this section if you requier time-off</h4>
+            <div class="date-container">
+                <label style="width: 600px; margin-right: 20px;">Time-off Dates</label>
+                <label>Date1</label>
+                <input type="date">
+                <label>Date1</label>
+                <input type="date">
+                <label>Date1</label>
+                <input type="date">
+                <label>Date1</label>
+                <input type="date">
+            </div>
+            <h4>Employer</h4>
+            <div class="employe-container">
+                <input type="radio" value="BPS"><label>BPS</label>                
+                <input type="radio" value="CAAT-S"><label>CAAT-S</label>
+                <input type="radio" value="CAAT-A"><label>CAAT-A</label>
+                <input type="radio" value="OPS"><label>OPS</label>
+            </div>
+            <div>
+                <div style="margin-bottom: 10px;">
+                    <label>Work Place</label><input type="texxt">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label>Employer Contact</label><input type="text">
+                </div>
+                <div class="input-wrapper">
+                    <label style="width: 500px;">Employer Job Title</label><input class="input-area" type="text">
+                    <label style="width: 300px;">Contact</label><input class="input-area" type="text">
+                </div>
+            </div>
+
+
+
+        </div>
+    </body>
+
+
+</html>
+
+Q7
+Admissions Form
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            margin-top: 0;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 30px; /* Increased from 15px */
+            display: flex;
+        }
+        .form-group > label {
+            flex: 0 0 30%;
+            font-weight: bold;
+        }
+        .input-area {
+            flex: 0 0 70%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .input-wrapper {
+            position: relative;
+            width: 32%;
+            margin-bottom: 20px; /* Added margin to prevent overlap */
+        }
+        input[type="text"], input[type="email"], select {
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .small-text {
+            font-size: 0.8em;
+            color: #666;
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+        }
+        .required:after {
+            content: " *";
+            color: red;
+        }
+        button {
+            padding: 10px 20px;
+            margin-left: 30%;
+        }
+        .vertical-options {
+            display: flex;
+            flex-direction: column;
+        }
+        .vertical-options label {
+            margin-bottom: 5px;
+        }
+        .mailing-address .input-wrapper {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .mailing-address .half-width {
+            width: 48%;
+        }
+        .form-divider {
+            border-top: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Admissions Form</h1>
+    <p class="subtitle">Enter your admission information below</p>
+
+    <form>
+        <div class="form-group">
+            <label class="required">Name</label>
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input type="text" name="firstName">
+                    <span class="small-text">First Name</span>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="middleInitial">
+                    <span class="small-text">Middle Initial</span>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="lastName">
+                    <span class="small-text">Last Name</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="required">Birth Date</label>
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <select name="month">
+                        <option value=""></option>
+                        <option value="">Januaray</option>
+                        <option value="">February</option>
+                        <option value="">March</option></select>
+                    <span class="small-text">Month</span>
+                </div>
+                <div class="input-wrapper">
+                    <select name="day">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option></select>
+                    <span class="small-text">Day</span>
+                </div>
+                <div class="input-wrapper">
+                    <select name="year"><option value=""></option></select>
+                    <span class="small-text">Year</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="required">Gender</label>
+            <div class="input-area vertical-options">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="decline"> Decline to Answer</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="required">Are you Hispanic or Latino?</label>
+            <div class="input-area vertical-options">
+                <label><input type="radio" name="hispanic" value="no"> No</label>
+                <label><input type="radio" name="hispanic" value="yes"> Yes</label>
+                <label><input type="radio" name="hispanic" value="decline"> Decline to Answer</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="required">Race</label>
+            <div class="input-area vertical-options">
+                <label><input type="checkbox" name="race" value="american-indian"> American Indian/Alaskan Native</label>
+                <label><input type="checkbox" name="race" value="asian"> Asian</label>
+                <label><input type="checkbox" name="race" value="black"> Black</label>
+                <label><input type="checkbox" name="race" value="hawaiian"> Native Hawaiian/Other Pacific Islander</label>
+                <label><input type="checkbox" name="race" value="white"> White</label>
+                <label><input type="checkbox" name="race" value="decline"> Decline to Answer</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Of which country are you a citizen?</label>
+            <div class="input-area">
+                <div class="input-wrapper" style="width: 100%;">
+                    <select name="citizenship">
+                        <option value="">Please select</option>
+                        <!-- Add country options here -->
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="required">Phone</label>
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input type="text" name="areaCode">
+                    <span class="small-text">Area Code</span>
+                </div>
+                <div class="input-wrapper" style="width: 65%;">
+                    <input type="text" name="phoneNumber">
+                    <span class="small-text">Phone Number</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="required">E-mail Address</label>
+            <div class="input-area">
+                <div class="input-wrapper" style="width: 100%;">
+                    <input type="email" name="email">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mailing-address">
+            <label class="required">Mailing Address</label>
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input type="text" name="streetAddress">
+                    <span class="small-text">Street Address</span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mailing-address">
+            <label></label>
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input type="text" name="streetAddress2">
+                    <span class="small-text">Street Address Line 2</span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mailing-address">
+            <label></label>
+            <div class="input-area">
+                <div class="input-wrapper half-width">
+                    <input type="text" name="city">
+                    <span class="small-text">City</span>
+                </div>
+                <div class="input-wrapper half-width">
+                    <input type="text" name="stateProvince">
+                    <span class="small-text">State / Province</span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mailing-address">
+            <label></label>
+            <div class="input-area">
+                <div class="input-wrapper half-width">
+                    <input type="text" name="postalCode">
+                    <span class="small-text">Postal / Zip Code</span>
+                </div>
+                <div class="input-wrapper half-width">
+                    <select name="country">
+                        <option value="">Please select</option>
+                        <!-- Add country options here -->
+                    </select>
+                    <span class="small-text">Country</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-divider"></div>
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>
+
+Q8
+form
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            table, th, td{
+                border: 2px solid;
+                border-collapse: collapse;
+                
+                
+                padding: 0%;
+            }
+            th, td{
+                width: 500px;
+            }
+            td{
+                text-align: center;
+            }
+            th{
+              font-size: 15px;  
+            }
+            a{
+                display: block;
+            }
+            label{
+                display: block;
+                text-align: left;
+                margin-bottom: 0;
+            }
+            input{
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr><td>
+        <table>
+            <tr>
+                <th><u>Home</u></th>
+                <th><u>Customer</u></th>
+                <th><u>Contact US</u></th>
+                <th><u>About US</u></th>
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #e7ce99; height: 20px;"></td>
+                <td colspan="2" style="background-color:#CAA75D;"></td>
+            </tr>
+            <tr>
+                <td colspan="4" style="background-color:#DD33EF; height: auto;">Opening Hours
+                    <table style="margin: 5px 5px;">
+                        <tr>
+                            <th>Week Days</th>
+                            <th>Week Ends</th>
+                            <th>Holidays</th>
+                            <th>Special Days</th>
+                        </tr>
+                        <tr>
+                            <td>8.30-4.30</td>
+                            <td>Saturday 9.00-3.30</td>
+                            <td rowspan="2">10.00-12.00</td>
+                            <td>10.00-1.00</td>
+                        </tr>
+                        <tr>
+                            <td>Friday 8.30-1.30</td>
+                            <td>Sunday 9.30-12.30</td>
+                            <td>Further contact<br>+9412121232<br></td>
+                        </tr>
+
+                       
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="background-color: #ECA99A; height: 40px;" colspan="4"></td>
+                    <tr>   
+            
+                        <td><h3>About Us</h3><p>abcd</p></td>
+                        <td><h3>Banking</h3><p>abcdefghijk</p></td>
+                        <td colspan="2"><h3>Special Notice</h3><p>abcdefghijk</p></td>
+                    
+                    
+                </tr>
+            
+            
+            </tr>
+               
+                
+        </table>
+    </td>
+    <td style="background-color: #5DC5CA; width: auto; padding: 5px;" >
+        <label>User name</label><input type="text" value=""> 
+        <label>Password</label><input type="text" value="">
+        <br>
+
+        <button>Login</button>
+        <p style="text-align: left;">Dont have a wells<br>fargo bank online <br>ID</p>
+        <a href="" rel="" style="text-align: center;">Sign up</a><br>
+        <a href="" rel="" style="text-align: left;">Valid Customers</a><br>
+        <a href="" rel="" style="text-align: left;">New Customers</a><br>
+        <a href="" rel="" style="text-align: left;">Forget Password?</a>
+        
+    </td>
+    </tr>
+    <tr>
+        <td colspan="2">Privacy & Security| Terms of Use 2023 Wells Farga Bank. All Reight Reserved</td>
+    </tr>
+    </table>
+
+    </body>
+
+
+</html>
+
+Q9
+Shapes
+
+<html>
+    <head>
+        <title>Shapes</title>
+    </head>
+    <style>
+        .container{
+            
+            max-width: 200px;
+            max-height: 200px;
+
+        }
+
+        .red{
+            width: 0;
+            height: 0;
+            border-left: 0px solid transparent;
+            border-right: 100px solid transparent;
+            border-top: 100px solid red;
+            margin: 0 0 100px 100px;
+            position:absolute;
+        }
+
+        .green{
+            width: 0;
+            height: 0;
+            border-left: 0px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 100px solid green;
+            margin: 0 100px 0 0;
+            position:absolute;
+            
+        }
+
+        .blue{
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 0px solid transparent;
+            border-top: 100px solid blue;
+            position: absolute;
+            margin: 100px 0 0 100px;
+
+        }
+
+        .yellow{
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 100px solid yellow;
+            position: absolute;
+            margin: 100px 100px 0 0;
+        }
+
+        .circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: brown;
+            position:absolute ;
+            margin: 300px;
+            
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="yellow"></div>
+        </div>
+
+        <div class="circle"></div>
+    </body>
+</html>
